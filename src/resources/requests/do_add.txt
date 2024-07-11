@@ -1,0 +1,4 @@
+ъ
+INSERT INTO Goods (Link) VALUE ('%s');
+SET @a = LAST_INSERT_ID();
+INSERT INTO List (Wishlist_id, Good_id) VALUES (%d, @a);

@@ -1,0 +1,6 @@
+select Goods.Link, Goods.ID
+from Goods join (SELECT Name, Link, COUNT(*)
+FROM Goods
+GROUP BY Name, Link
+HAVING COUNT(*) > 1) as T1
+on T1.Link = Goods.Link

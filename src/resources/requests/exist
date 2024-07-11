@@ -1,0 +1,2 @@
+select EXISTS(SELECT Account_name FROM Users where Account_name = 'Vasia'
+or chat_id = 2);

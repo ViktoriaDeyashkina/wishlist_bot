@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="httpmime-4.5.14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/httpmime-4.5.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
